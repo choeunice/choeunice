@@ -1,0 +1,24 @@
+/* https://fonts.google.com/specimen/Handjet */
+
+@font-face {
+    font-family: handjet;
+    src: url(fonts/handjet_regular.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* https://fonts.google.com/specimen/Google+Sans+Code */
+
+@font-face {
+    font-family: google_sans_code;
+    src: url(fonts/googlesanscode_light.ttf) format("opentype");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: google_sans_code;
+    src: url(fonts/googlesanscode_regular.ttf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
