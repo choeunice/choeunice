@@ -24,10 +24,24 @@
 }
 
 @font-face {
-    font-family: 'thin_rounded';
+    font-family: thin_rounded;
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/ThinDungGeunMo.woff2') format('woff2');
     font-weight: normal;
     font-display: swap;
+}
+
+@font-face {
+    font-family: chathura;
+    src: url('fonts/chathura_bold.ttf') format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: chathura;
+    src: url('fonts/chathura_regular.ttf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1 {font-family: handjet;
@@ -39,13 +53,15 @@ h1 {font-family: handjet;
 font-weight: normal;
 font-size: 30px}
 
-a.button {font-family: google_sans_code;
+a.button {font-family: chathura;
     color: black;
     text-decoration: none;
-    font-weight: normal;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 40px;
     padding: 20px;
-    border: 0cm}
+    border: 0cm
+}
+
 p {font-family: google_sans_code;
     font-weight: lighter;
     font-size: 20px}
