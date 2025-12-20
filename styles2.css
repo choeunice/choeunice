@@ -24,28 +24,79 @@
     src: url('fonts/chathura_regular.ttf') format("opentype");
     font-weight: normal;
     font-style: normal;
+    ascent-override: 90%;
+    descent-override: 90%
+}
+
+@font-face {
+    font-family: vt323;
+    src: url('fonts/vt323-regular.ttf') format("opentype");
+    font-weight: normal;
+    font-style: normal
+}
+
+body {
+    margin-left: 15vw;
+    margin-right: 15vw
 }
 
 h1 {
-    font-family: handjet;
+    font-family: vt323;
     font-weight: normal;
-    font-size: 75px
+    font-size: 75px;
+    width: 100%;
+    margin: 0px
 }
 
 .h1_kor {
     font-family: thin_rounded;
     font-weight: normal;
-    font-size: 30px
+    font-size: 35px;
+    width: 100%;
+    margin: 0px
+}
+
+h3 {
+    font-family: handjet;
+    font-weight: normal;
+    font-size: 35px;
+    margin: 0px
+}
+
+header {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: end
 }
 
 .lheader {
-    overflow: visible;
-    float: left
+    float: left;
+    align-self: left;
+    text-align: left;
+    width: 50%;
+    margin: 0px;
+    display: grid;
+    gap: 0px;
 }
 
 .rheader {
     float: right;
-    position: sticky
+    align-self: right;
+    text-align: right;
+    width: 50%;
+    margin: 0px;
+    display: grid;
+    gap: 0px
+}
+
+.icons {
+    float: right;
+    align-self: right;
+    margin: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 0px
 }
 
 a.button {
