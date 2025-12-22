@@ -1,6 +1,6 @@
 @font-face {
     font-family: vt323;
-    src: url('fonts/vt323-regular.ttf') format("opentype");
+    src: url('fonts/vt323-regular.ttf') format("truetype");
     font-weight: normal;
     font-style: normal
 }
@@ -14,9 +14,16 @@
 
 @font-face {
     font-family: handjet;
-    src: url(fonts/handjet_regular.ttf) format("opentype");
+    src: url(fonts/handjet_regular.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: nunitosans;
+    src: url(fonts/nunitosans-variable.ttf) format("truetype");
+    font-weight: 300;
+    font-variation-settings: "wdth" 55;
 }
 
 h1 {
@@ -41,10 +48,23 @@ h3 {
 }
 
 p {
-    font-family: handjet;
+    font-family: nunitosans;
     font-weight: normal;
     font-size: 25px;
     margin: 0px
+}
+
+a.p {
+    font-family: nunitosans;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0px;
+    text-decoration: none;
+    color: black
+}
+
+a.p:hover{
+    color: slategray
 }
 
 header {
@@ -59,7 +79,7 @@ body {
     margin-right: 15vw
 }
 
-@media (max-width: 860px) {
+@media (max-width: 925px) {
     body {
         margin-left: 15px;
         margin-right: 15px
@@ -117,4 +137,11 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 30px
+}
+
+.bio {
+    display: grid;
+    grid-auto-flow: row;
+    align-items: start;
+    gap: 100px
 }
