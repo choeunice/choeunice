@@ -47,6 +47,14 @@ h3 {
     margin: 0px
 }
 
+a.h3 {
+    text-decoration: none
+}
+
+a.h3:hover {
+    color: slategray
+}
+
 p {
     font-family: nunitosans;
     font-weight: normal;
@@ -142,6 +150,7 @@ body {
 .bio {
     display: grid;
     grid-auto-flow: row;
-    align-items: start;
-    gap: 100px
+    gap: 10px;
+    height: max-content;
+    align-items: start
 }
