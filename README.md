@@ -1,1 +1,1 @@
-hi
+Hello! I'm a fourth-year undergraduate Mathematics and Computer Science student at the University of Illinois at Chicago. [Visit my site.](https://choeunice.me)
