@@ -20,8 +20,8 @@
 }
 
 @font-face {
-    font-family: gowundodum;
-    src: url(fonts/gowundodum-regular.ttf) format("truetype");
+    font-family: instrument;
+    src: url(fonts/instrumentsans.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -63,16 +63,20 @@ a.h3:hover {
 }
 
 p {
-    font-family: gowundodum;
+    font-family: instrument;
     font-weight: normal;
     font-size: 25px;
-    margin: 0px
+    margin: 0px;
+    font-variation-settings: "wdth" 80;
+    letter-spacing: 0.5px
 }
 
 a.p {
-    font-family: gowundodum;
+    font-family: instrument;
     font-size: 25px;
     margin: 0px;
+    font-variation-settings: "wdth" 80;
+    letter-spacing: 0.5px;
     text-decoration: none;
     color: slategray
 }
@@ -84,7 +88,7 @@ a.p:hover{
 header {
     width: 100%;
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     flex-direction: row
 }
 
@@ -114,38 +118,35 @@ body {
 }
 
 .lheader {
-    float: left;
-    align-self: left;
     text-align: left;
     width: 50%;
     margin: 0px;
     display: grid;
-    gap: 0px
+    gap: 0px;
 }
 
 .rheader {
-    float: right;
-    align-self: right;
     width: 50%;
     margin: 0px;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-template-rows: auto auto;
-    justify-content: right;
-    justify-items: left;
-    row-gap: 0px;
-    column-gap: 8px
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .icons {
     width: 100%;
     margin-top: 10px;
-    margin-bottom: 30px;
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 30px;
-    justify-content: end;
-    column-gap: 10px
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
 }
 
 .main {
