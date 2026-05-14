@@ -20,21 +20,21 @@
 }
 
 @font-face {
-    font-family: nanumgothic;
-    src: url(fonts/nanumgothiccoding-regular.ttf) format("truetype");
+    font-family: gowundodum;
+    src: url(fonts/gowundodum-regular.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: nanumgothic-bold;
-    src: url(fonts/nanumgothiccoding-regular.ttf) format("truetype");
+    font-family: monofett;
+    src: url(fonts/monofett-regular.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 h1 {
-    font-family: vt323;
+    font-family: monofett;
     font-weight: normal;
     font-size: 75px;
     margin: 0px
@@ -63,22 +63,22 @@ a.h3:hover {
 }
 
 p {
-    font-family: nanumgothic;
+    font-family: gowundodum;
     font-weight: normal;
     font-size: 25px;
     margin: 0px
 }
 
 a.p {
-    font-family: nanumgothic-bold;
+    font-family: gowundodum;
     font-size: 25px;
     margin: 0px;
     text-decoration: none;
-    color: black
+    color: slategray
 }
 
 a.p:hover{
-    color: slategray
+    color: black
 }
 
 header {
