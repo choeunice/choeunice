@@ -20,10 +20,17 @@
 }
 
 @font-face {
-    font-family: nunitosans;
-    src: url(fonts/nunitosans-variable.ttf) format("truetype");
-    font-weight: 300;
-    font-variation-settings: "wdth" 55;
+    font-family: nanumgothic;
+    src: url(fonts/nanumgothiccoding-regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: nanumgothic-bold;
+    src: url(fonts/nanumgothiccoding-regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1 {
@@ -56,15 +63,14 @@ a.h3:hover {
 }
 
 p {
-    font-family: nunitosans;
+    font-family: nanumgothic;
     font-weight: normal;
     font-size: 25px;
     margin: 0px
 }
 
 a.p {
-    font-family: nunitosans;
-    font-weight: bold;
+    font-family: nanumgothic-bold;
     font-size: 25px;
     margin: 0px;
     text-decoration: none;
